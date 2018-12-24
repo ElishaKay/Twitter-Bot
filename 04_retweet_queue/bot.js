@@ -59,6 +59,7 @@ var stream = T.stream('statuses/filter', { track: phrase })
 stream.on('tweet', gotTweet);
 
 function gotTweet(tweet) {
+  console.log('heres the tweet:', tweet);
   // If we wanted to write a file out
   // to look more closely at the data
   // var fs = require('fs');
@@ -73,4 +74,6 @@ function gotTweet(tweet) {
     // Save this tweet for the queue
     queue.push(tweet.id_str);
   }
+
+
 }
