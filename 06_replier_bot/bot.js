@@ -1,8 +1,3 @@
-// A2Z F16
-// Daniel Shiffman
-// http://shiffman.net/a2z
-// https://github.com/shiffman/A2Z-F16
-
 // Bot that replies
 
 // Create an Twitter object to connect to Twitter API

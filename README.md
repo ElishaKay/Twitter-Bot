@@ -14,3 +14,7 @@ Project #2: Tweets a random number every 60 seconds
 Project #3: Automatically retweet tweets based on their content (rememeber to set a filter or you will account will retweet like crazy)
 
 Project #4: Add specific tweets to a queue and tweet random messages from the queue out at a specified interval of time.
+
+Project #5:
+
+Project #6: Respond to someone following me
