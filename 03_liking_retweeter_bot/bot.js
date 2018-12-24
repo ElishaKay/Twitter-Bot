@@ -29,6 +29,7 @@ var stream = T.stream('statuses/filter', { track: phrase })
 stream.on('tweet', gotTweet);
 
 function gotTweet(tweet) {
+  console.log('heres the tweet: ',tweet)
   // If we wanted to write a file out
   // to look more closely at the data
   // var fs = require('fs');
@@ -39,7 +40,7 @@ function gotTweet(tweet) {
   // (equivalent to quoted phrases in most search engines) is not supported."
   // So we filter ourselves here:
 
-  if (regex.test(tweet.text)) {
+  // if (regex.test(tweet.text)) {
     console.log('Attempting to retweet ' + tweet.id_str + ": " + tweet.text);
 
     T.post('statuses/retweet', { id: tweet.id_str }, retweeted);
@@ -54,5 +55,7 @@ function gotTweet(tweet) {
         console.log('Retweeted: ' + tweet.id);
       }
     }
-  }
+  
+
+  // }
 }
