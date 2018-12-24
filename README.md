@@ -7,8 +7,8 @@ https://www.youtube.com/watch?v=ovOtQxLwSzQ&index=7&list=PLRqwX-V7Uu6atTSxoRiVnS
 
 Project Descriptions:
 
-Project #1: 
+Project #1: Frontend and Backend - Search Twitter for tweets with specific posts and post a tweet based on User Input
 
-Project #2:
+Project #2: Tweets a random number every 60 seconds
 
 Project #3: Automatically retweet tweets based on their content (rememeber to set a filter or you will account will retweet like crazy)
